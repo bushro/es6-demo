@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .yi {
+      color: red;
+    }
+
+    /* li:first-child{
+      color: red;
+    }
+    li:last-child{
+      color: blue;
+    }
+    li:nth-child(1){
+      color: green;
+    } */
+    /* li:nth-child(2n+1) {
+      color: pink
+    }
+    li:nth-child(2n){
+      color:yellow
+    } */
+    li:not(:nth-child(4)) {
+      color: red;
+    }
+
+    a:link {
+      color: red;
+    }
+
+    a:visited {
+      color: green;
+    }
+
+    a:hover {
+      color: pink;
+    }
+
+    a:active {
+      color: yellow;
+    }
+
+    .text::first-letter {
+      color: red;
+    }
+
+    .text::first-line {
+      color: red;
+    }
+    .text::selection {
+      color: green;
+    }
+    .text::before {
+      content:'云课堂'
+    }
+    .text::after {
+      content:'云课堂'
+    }
+
+    /* span::first-line{
+      color: red;
+    } */
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>前端</li>
+    <li>后端</li>
+    <li>测试</li>
+    <li>大数据</li>
+    <li>课程</li>
+    <li>云</li>
+
+    <a href="https://xdclass.net">云课堂</a>
+
+    <div class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aperiam error veritatis omnis? Labore dolor,
+      reiciendis atque non natus vero tenetur iste sit alias id quasi nesciunt aspernatur cupiditate repudiandae,
+      temporibus ex. Qui voluptate asperiores assumenda quisquam natus nobis quis mollitia vitae totam. Dolorum
+      distinctio facere expedita error maiores fugit. Laboriosam error enim saepe. Accusamus voluptatem repellendus
+      debitis quod magni fugit autem dignissimos doloremque, consequuntur ratione dolorem veniam quis recusandae dolores
+      dolor sint sapiente voluptate architecto. Corrupti nam eos ipsa? Illum dolore nostrum nisi laboriosam nihil earum
+      quos eveniet veniam adipisci ea aspernatur cumque beatae eius laborum repellat, nam impedit, provident quis! Quo,
+      quasi corrupti. Sapiente doloremque consequatur corrupti labore vel consectetur sunt dolorum modi, perferendis,
+      quidem earum veritatis ipsa eveniet architecto obcaecati ea nostrum repudiandae? Explicabo tenetur asperiores
+      itaque quas, sint fugiat ratione, alias nobis praesentium accusantium possimus? Veritatis, asperiores quae nam
+      nostrum inventore cum repellendus officiis laudantium corrupti, sit doloribus dolor eligendi dolores maiores
+      assumenda, molestiae dolorum. Dolore praesentium amet voluptas optio ex iusto delectus quam, quis aut eaque
+      explicabo est debitis at quas harum fuga a minus iste facilis? Officia, corrupti commodi! Deleniti sunt fugit quae
+      nulla harum labore repellendus. Qui, est ipsa. Sunt consequuntur quibusdam accusamus.
+    </div>
+    <br>
+    <span>
+      sit doloribus dolor eligendi dolores maiores
+      assumenda, molestiae dolorum. Dolore praesentium amet voluptas optio ex iusto delectus quam, quis aut eaque
+      explicabo est debitis at quas harum fuga a minus iste facilis? Officia, corrupti commodi! Deleniti sunt fugit quae
+      nulla harum labore repellendus. Qui, est ipsa. Sunt consequuntur quibusdam accusamus.
+    </span>
+  </ul>
+</body>
+
+</html>
