@@ -38,3 +38,14 @@ img {
     border: none;
     vertical-align: middle;
 }
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+}
