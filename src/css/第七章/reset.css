@@ -49,3 +49,12 @@ textarea {
     outline: none;
     border: none;
 }
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.clearfix {
+    zoom: 1;
+}
