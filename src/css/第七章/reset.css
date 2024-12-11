@@ -58,3 +58,13 @@ textarea {
 .clearfix {
     zoom: 1;
 }
+
+.clearfix:after {
+    content: ".";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
