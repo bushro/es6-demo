@@ -68,3 +68,7 @@ textarea {
     clear: both;
     overflow: hidden;
 }
+
+.fl {
+    float: left;
+}
