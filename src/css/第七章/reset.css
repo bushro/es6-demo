@@ -76,3 +76,7 @@ textarea {
 .fr {
     float: right;
 }
+
+.tl {
+    text-align: left;
+}
